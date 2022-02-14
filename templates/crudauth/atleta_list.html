@@ -1,0 +1,30 @@
+{% extends 'crudauth/main.html' %}
+      {% block content %}
+      <div class = 'container'>
+        <div class = 'row'>
+            <div class = 'col'>
+                <h1>Lista de Atletas</h1>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Equipe</th>
+                        <th scope="col">Opções</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        {% for atleta in atletas %}
+                        <tr>
+                            <th scope="row">{{atleta.id}}</th>
+                            <td>{{atleta.nome}}</td>
+                            <td>{{atleta.equipe}}</td>
+                            <td><a href= {{atleta.id}} class="btn btn-info" role="button">Info</a>  <a href= "{% url 'alterar_atleta' atleta.id %}" class="btn btn-warning" role="button">Alterar</a>  <a href= "{% url 'remover_atleta' atleta.id %}" class="btn btn-danger" role="button">Remover</a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+      </div>
+      {% endblock %}

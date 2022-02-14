@@ -1,0 +1,36 @@
+{% extends 'crudauth/main.html' %}
+      {% block content %}
+      <div class = 'container'>
+        <div class = 'row'>
+            <div class = 'col'>
+                <h1>Informações do Atleta</h1>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Equipe</th>
+                        <th scope="col">Idade</th>
+                        <th scope="col">Peso</th>
+                        <th scope="col">Gênero</th>
+                        <th scope="col">Graduação</th>
+                        <th scope="col">Opções</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">{{object.id}}</th>
+                            <td>{{object.nome}}</td>
+                            <td>{{object.equipe}}</td>
+                            <td>{{object.idade}}</td>
+                            <td>{{object.peso}}</td>
+                            <td>{{object.genero}}</td>
+                            <td>{{object.graduacao}}</td>
+                            <td><a href= "{% url 'alterar_atleta' object.id %}" class="btn btn-warning" role="button">Alterar</a>  <a href= "{% url 'remover_atleta' object.id %}" class="btn btn-danger" role="button">Remover</a></td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+      </div>
+      {% endblock %}
