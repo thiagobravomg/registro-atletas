@@ -1,7 +1,7 @@
 # registro-atletas
 <h3> CRUD Auth Level 1 para Django Fullstack. </h3>
 <p>*o objetivo do projeto não é desenvolver uma UI e design interessantes, mas servir funcionalidades básicas (Level 1) de backend em Python/Django que possam ser utilizadas para a construção de outros projetos específicos.</p>
-<p>*caso seja sua intenção utilizar 'Django Fullstack'(fazer uso do sistema nativo de templates), aqui você pode entender seu funcionamento básico.</p>
+<p>*caso seja sua intenção utilizar 'Django Fullstack'(fazer uso do sistema nativo de templates), aqui você pode entender seu funcionamento básico com uso de Bootstrap.</p>
 <p>*caso seja sua intenção utilizar Django para o backend em conjunto com outro framework para o frontend, busque meus repositórios que implementam APIs com Django.</p>
 
 <h3> Aqui você vai encontrar: </h3>
