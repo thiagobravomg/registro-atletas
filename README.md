@@ -23,8 +23,13 @@
 <h3> Preview: </h3>
 <ul>
   <li>![lista](https://user-images.githubusercontent.com/53627206/153816925-eeffbcfd-d6ec-4e14-a532-46a03c7f9d86.png)</li>
+  <img src="https://user-images.githubusercontent.com/53627206/153816925-eeffbcfd-d6ec-4e14-a532-46a03c7f9d86.png">
   <li>![info](https://user-images.githubusercontent.com/53627206/153817152-0f4bfd01-cdd4-45e3-a636-9a7550b06197.png)</li>
+  <img src="https://user-images.githubusercontent.com/53627206/153817152-0f4bfd01-cdd4-45e3-a636-9a7550b06197.png">
   <li>![registro-alterar-atletas](https://user-images.githubusercontent.com/53627206/153817165-870acfe5-558a-49bb-ab15-5250ca28ce9d.png)</li>
+  <img src="https://user-images.githubusercontent.com/53627206/153817165-870acfe5-558a-49bb-ab15-5250ca28ce9d.png">
   <li>![remover-item](https://user-images.githubusercontent.com/53627206/153817181-4cee1ffd-be52-413a-a136-82cf8c42e5e2.png)</li>
+  <img src="https://user-images.githubusercontent.com/53627206/153817181-4cee1ffd-be52-413a-a136-82cf8c42e5e2.png">
   <li>![login](https://user-images.githubusercontent.com/53627206/153817187-e834215c-b50c-4480-b2cb-090634355b70.png)</li>
+  <img src="https://user-images.githubusercontent.com/53627206/153817187-e834215c-b50c-4480-b2cb-090634355b70.png">
 </ul>
